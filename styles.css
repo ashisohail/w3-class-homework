@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(230, 175, 205, 0.31278448879551823) 9%,
+    rgba(227, 176, 206, 1) 13%,
+    rgba(225, 176, 207, 1) 15%,
+    rgba(215, 177, 210, 1) 26%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border: 5px solid rgb(155, 155, 209);
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+p {
+  margin: 10px 0px;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+form input,
+textarea {
+  width: 80%;
+  height: 40px;
+  padding: 12px;
+  margin: 10px;
+  color: #111111;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 2px solid rgb(50, 210, 231);
+}
+
+form > input[type="submit"]:hover {
+  /* opacity: 0.5; */
+  border-color: rgb(157, 37, 209);
+}
+
+ul > li {
+  margin: 10px 0px;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
