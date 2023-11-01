@@ -16,3 +16,19 @@ function addition(event) {
   document.getElementById("result").innerHTML = result;
 }
 form.addEventListener("submit", addition);
+
+// Function to change style of result tag
+const styleHandlerMouseOver = () => {
+  document.getElementById("result").style.backgroundColor = "lightblue";
+};
+
+const styleHandlerMouseOut = () => {
+  document.getElementById("result").style.backgroundColor = "white";
+};
+
+document
+  .getElementById("result")
+  .addEventListener("mouseover", styleHandlerMouseOver);
+document
+  .getElementById("result")
+  .addEventListener("mouseout", styleHandlerMouseOut);
